@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px; /* Adjust width for your logo */
+    height: auto;
+    margin-right: 20px; /* Space between logo and title */
+    background-color: #ccc; /* Placeholder for logo */
+}
+
+.header-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+.img-container {
+    width: 100%;
+    height: 800px; /* Adjusted height for better layout */
+    margin-bottom: 20px; /* Space below the image */
+    position: relative; /* For absolute positioning of the image */
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    filter: brightness(40%); /* Darken the image */
+    display: block; /* Remove any potential gaps below the image */
+}
+
+.overlay-text {
+    position: absolute; /* Position text relative to the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    color: white; /* Text color */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px; /* Text size */
+    text-align: center; /* Center text */
+}
+
+nav {
+    background-color: #11a2d7;
+    padding: 20px 0;
+}
+
+.nav-links {
+    list-style: none; 
+    padding: 0;      
+    margin: 0;       
+    display: flex;    
+    justify-content: right; 
+}
+
+.nav-links li {
+    margin: 0 15px; 
+    font-size: 25px;
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s; 
+}
+
+.nav-links a:hover {
+    background-color: #90dcff; 
+    border-radius: 4px; 
+}
+
+section {
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+header h2 {
+    margin: 20px 0;
+    color: #333; /* Darker color for headings */
+}
+
+.service-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.service-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 20px; /* Space between items */
+}
+
+.service-list h3 {
+    font-size: 20px; /* Font size for service titles */
+    color: #007BFF; /* Blue color for emphasis */
+}
+
+.service-list p {
+    font-size: 16px; /* Standard font size for paragraph text */
+    line-height: 1.6; /* Improved line height for readability */
+    color: #555; /* Gray color for paragraph text */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Darker text for section headings */
+}
+
+p {
+    font-size: 16px; /* Standard font size for paragraphs */
+    line-height: 1.6; /* Improve readability */
+    color: #000000; /* Medium gray for text */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #38b6ff;
+    padding: 20px;
+}
+
+.a {
+    text-align: center;
+}
+
+.box-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center boxes horizontally in the container */
+}
+
+.box {
+    background-color: #11a2d7; /* Background color of the box */
+    color: white; /* Text color */
+    padding: 20px; /* Inner padding */
+    margin: 30px; /* Margin between boxes */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text inside the box */
+    width: 400px; /* Fixed width for the boxes */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+.box-bottom{
+    background-color: #11a2d7; /* Background color of the box */
+    color: white; /* Text color */
+    padding: 20px; /* Inner padding */
+    margin: 30px; /* Margin between boxes */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text inside the box */
+    width: 400px; /* Fixed width for the boxes */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+h3{
+    font-size: 50px;
+    margin: 0; /* Remove default margin */
+}
+
+p{
+    margin: 10px 0 0; /* Margin for the paragraph */
+}
